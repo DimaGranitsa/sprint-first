@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Новая_папка1.проекты">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White">
+            <ScrollView>
+                
+            </ScrollView>
+            <Frame BackgroundColor="#2196F3" Padding="50" CornerRadius="0" >
+                <Button Padding="12"  Text="ВЫЙТИ" Clicked="Button_Clicked"></Button></Frame>
+            <Button Clicked="Button_Clicked_1" Text="Проект 1 " BackgroundColor="Gray" TextColor="Black"></Button>
+                <Button Text="Проект 2 " TextTransform="Lowercase" BackgroundColor="Gray" TextColor="Black"></Button>
+                <Button Text="Проект 3 " BackgroundColor="Gray" TextColor="Black"></Button>
+                <Button Text="Проект 4 " BackgroundColor="Gray" TextColor="Black"></Button>
+                <Button Text="Проект 5 " BackgroundColor="Gray" TextColor="Black"></Button>
+                <Button Text="Проект 6 " BackgroundColor="Gray" TextColor="Black"></Button>
+                <Button Text="Проект 7 " BackgroundColor="Gray" TextColor="Black"></Button>
+                <Button Text="Проект 8 " BackgroundColor="Gray" TextColor="Black"></Button>
+                <Button Text="Проект 9 " BackgroundColor="Gray" TextColor="Black"></Button>
+                <Button Text="Проект 10 " BackgroundColor="Gray" TextColor="Black"></Button>
+                <Button Text="Проект 11 " BackgroundColor="Gray" TextColor="Black"></Button>
+                <Button Text="Проект 12 " BackgroundColor="Gray" TextColor="Black"></Button>
+                <Button Text="Проект 13 " BackgroundColor="Gray" TextColor="Black"></Button>
+                <Button Text="Проект 14 " BackgroundColor="Gray" TextColor="Black"></Button>
+             
+          
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

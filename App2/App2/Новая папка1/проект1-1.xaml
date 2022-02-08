@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Новая_папка1.проект1_1">
+  <!--Pages can be added as references or inline-->
+
+    <ContentPage Title="о проекте" BackgroundColor="White"  >
+        <ScrollView>
+           
+            <Label Text="fsddsfsddsfgedsfgddvxcvxvxvxcxvxcvvxfzgdsszdszddzzdzsddxczczxczxczxczx EFKWJLAAAAA/////;;;;;KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ" FontSize="Large"  TextColor="Red" VerticalTextAlignment="Center" />
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Картинки" BackgroundColor="White"  >
+        <ScrollView>
+            <StackLayout>
+                <FlexLayout x:Name="flexLayout"
+                        Wrap="Wrap"
+                        JustifyContent="SpaceAround" >
+                    <Image HorizontalOptions="Start"  Source="https://st2.depositphotos.com/4209875/6163/i/950/depositphotos_61634017-stock-photo-grand-island-east-channel-lighthouse.jpg" HeightRequest="150" WidthRequest="150"/>
+                    <Label HorizontalOptions="Start" Text="shutterstock/com * 1914257242" HorizontalTextAlignment="Center"/>
+                    <Image HorizontalOptions="Start" Source="https://st2.depositphotos.com/4209875/6163/i/950/depositphotos_61634017-stock-photo-grand-island-east-channel-lighthouse.jpg" HeightRequest="150" WidthRequest="150"/>
+                    <Label HorizontalOptions="Start" Text="shutterstock/com * 1914257242" HorizontalTextAlignment="Center"/>
+                    <Image HorizontalOptions="Start" Source="https://st2.depositphotos.com/4209875/6163/i/950/depositphotos_61634017-stock-photo-grand-island-east-channel-lighthouse.jpg" HeightRequest="150" WidthRequest="150"/>
+                    <Label HorizontalOptions="Start" Text="shutterstock/com * 1914257242" HorizontalTextAlignment="Center"/>
+                    <Image HorizontalOptions="Start" Source="https://st2.depositphotos.com/4209875/6163/i/950/depositphotos_61634017-stock-photo-grand-island-east-channel-lighthouse.jpg" HeightRequest="150" WidthRequest="150"/>
+                    <Label HorizontalOptions="Start" Text="shutterstock/com * 1914257242" HorizontalTextAlignment="Center"/>
+                    <Image HorizontalOptions="Start" Source="https://st2.depositphotos.com/4209875/6163/i/950/depositphotos_61634017-stock-photo-grand-island-east-channel-lighthouse.jpg" HeightRequest="150" WidthRequest="150"/>
+                    <Label HorizontalOptions="Start" Text="shutterstock/com * 1914257242" HorizontalTextAlignment="Center"/>
+                    <Image HorizontalOptions="Start" Source="https://st2.depositphotos.com/4209875/6163/i/950/depositphotos_61634017-stock-photo-grand-island-east-channel-lighthouse.jpg" HeightRequest="150" WidthRequest="150"/>
+                    <Label HorizontalOptions="Start" Text="shutterstock/com * 1914257242" HorizontalTextAlignment="Center"/>
+                    <Image HorizontalOptions="Start" Source="https://st2.depositphotos.com/4209875/6163/i/950/depositphotos_61634017-stock-photo-grand-island-east-channel-lighthouse.jpg" HeightRequest="150" WidthRequest="150"/>
+                    <Label HorizontalOptions="Start" Text="shutterstock/com * 1914257242" HorizontalTextAlignment="Center"/>
+                </FlexLayout>
+                <FlexLayout x:Name="flexLayout1"
+                    
+                        JustifyContent="SpaceBetween"  >
+                    <Image HorizontalOptions="End" Source="https://st2.depositphotos.com/4209875/6163/i/950/depositphotos_61634017-stock-photo-grand-island-east-channel-lighthouse.jpg" HeightRequest="150" WidthRequest="150"/>
+                <Label HorizontalOptions="End" Text="shutterstock/com * 1914257242" HorizontalTextAlignment="Center"/>
+                <Image HorizontalOptions="End" Source="https://st2.depositphotos.com/4209875/6163/i/950/depositphotos_61634017-stock-photo-grand-island-east-channel-lighthouse.jpg" HeightRequest="150" WidthRequest="150"/>
+                <Label HorizontalOptions="End" Text="shutterstock/com * 1914257242" HorizontalTextAlignment="Center"/>
+                <Image HorizontalOptions="End" Source="https://st2.depositphotos.com/4209875/6163/i/950/depositphotos_61634017-stock-photo-grand-island-east-channel-lighthouse.jpg" HeightRequest="150" WidthRequest="150"/>
+                <Label HorizontalOptions="End" Text="shutterstock/com * 1914257242" HorizontalTextAlignment="Center"/>
+                <Image HorizontalOptions="End" Source="https://st2.depositphotos.com/4209875/6163/i/950/depositphotos_61634017-stock-photo-grand-island-east-channel-lighthouse.jpg" HeightRequest="150" WidthRequest="150"/>
+                <Label HorizontalOptions="End" Text="shutterstock/com * 1914257242" HorizontalTextAlignment="Center"/>
+                <Image HorizontalOptions="End" Source="https://st2.depositphotos.com/4209875/6163/i/950/depositphotos_61634017-stock-photo-grand-island-east-channel-lighthouse.jpg" HeightRequest="150" WidthRequest="150"/>
+                <Label HorizontalOptions="End" Text="shutterstock/com * 1914257242" HorizontalTextAlignment="Center"/>
+                <Image HorizontalOptions="End" Source="https://st2.depositphotos.com/4209875/6163/i/950/depositphotos_61634017-stock-photo-grand-island-east-channel-lighthouse.jpg" HeightRequest="150" WidthRequest="150"/>
+                <Label HorizontalOptions="End" Text="shutterstock/com * 1914257242" HorizontalTextAlignment="Center"/>
+                <Image HorizontalOptions="End" Source="https://st2.depositphotos.com/4209875/6163/i/950/depositphotos_61634017-stock-photo-grand-island-east-channel-lighthouse.jpg" HeightRequest="150" WidthRequest="150"/>
+                <Label HorizontalOptions="End" Text="shutterstock/com * 1914257242" HorizontalTextAlignment="Center"/>
+                    </FlexLayout>
+            </StackLayout>
+                
+            
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="контакты"  BackgroundColor="White" />
+    
+</TabbedPage>

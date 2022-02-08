@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.MainPage">
+
+    <StackLayout BackgroundColor="White">
+        <Grid ColumnDefinitions="1" BackgroundColor="Black"/>
+        <Grid RowDefinitions="1" BackgroundColor="Black"/>
+        <Frame
+           HorizontalOptions="CenterAndExpand"
+           VerticalOptions="Center"
+           CornerRadius="200"
+           IsClippedToBounds="True"
+           HeightRequest="100"
+           WidthRequest="100">
+
+            <Image Source="1.png "
+               VerticalOptions="FillAndExpand"
+               HorizontalOptions="FillAndExpand" />
+        </Frame>
+        <Label Text="Логин" TextColor="Black" Margin="50,50,0,0"/>
+        <Entry  BackgroundColor="White" TextColor="Black" Margin="40,0,40,0"/>
+        <Label  Text="Пароль" TextColor="Black"  Margin="50,30,0,0" />
+        <Entry IsPassword="True" BackgroundColor="White" Margin="40,0,30,0" TextColor="Black"/>
+        <StackLayout  Orientation="Horizontal" Padding="50" >
+            <Button Clicked="btn_Zarega_Clicked"   x:Name="btn_Zarega" Text="Зарегистрироваться" HorizontalOptions="EndAndExpand" BackgroundColor="Gray" TextColor="Black" Padding="10" />
+            <Button Clicked="btn_vhod_Clicked" x:Name="btn_vhod" Text="Войти" HorizontalOptions="StartAndExpand" BackgroundColor="Gray" TextColor="Black"/>
+        </StackLayout>
+
+    </StackLayout>
+
+
+</ContentPage>
